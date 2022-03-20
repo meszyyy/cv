@@ -118,6 +118,17 @@ body {
     background: #03a9f4;
 }
 
+.changeLanguage{
+    text-align: center;
+}
+
+.contactInfo img {
+    display: inline-block;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
 .title {
     color: #fff;
     text-transform: uppercase;
@@ -229,7 +240,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.about .interest ul li:hover{
+.about .interest ul li:hover {
     cursor: pointer;
     transform: translateY(0) scale(1.2);
 }
@@ -247,27 +258,31 @@ p {
     display: none;
 }
 
-@media (max-width: 1000px){
-    .container{
+@media (max-width: 1000px) {
+    .container {
         margin: 10px;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    .interest ul{
-        grid-template-columns: repeat(2,1fr);
+
+    .interest ul {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 600px){
-    .about .box{
+@media (max-width: 600px) {
+    .about .box {
         flex-direction: column;
     }
-    .about .box .yearSchool{
+
+    .about .box .yearSchool {
         margin-bottom: 5px;
     }
-    .interes ul{
-        grid-template-columns: repeat(1,1fr);
+
+    .interes ul {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .skills .box{
-        grid-template-columns: repeat(1,1fr);
+
+    .skills .box {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
