@@ -296,6 +296,10 @@ p {
 }
 
 @media print {
+  @page {
+    margin: 0;
+  }
+
   * {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
@@ -310,6 +314,7 @@ p {
   .container {
     max-width: 100%;
     min-height: 0;
+    margin: 0;
     box-shadow: none;
   }
 
